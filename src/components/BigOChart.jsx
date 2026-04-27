@@ -164,6 +164,7 @@ export function BigOChart() {
             marginLeft: "auto",
           }}
         >
+          <span style={{ fontSize: 13 }}>Select complexity classes:</span>
           {COMPLEXITY_CLASSES.map(({ name, color }) => (
             <Tag
               key={name}
